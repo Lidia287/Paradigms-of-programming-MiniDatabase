@@ -1,0 +1,23 @@
+Lidia Istrate
+325CD
+			Tema1 
+			Paradigme de programare
+
+
+Baza de date : 
+
+(define db (list (cons "Studenți"  (list (list "Număr matricol" 123 124 125 126) (list "Nume" "Ionescu" "Popescu" "Popa" "Georgescu")
+                       (list "Prenume" "Gigel" "Maria" "Ionel" "Ioana") (list "Grupă" "321CA" "321CB" "321CC" "321CD")
+                       (list "Medie" 9.82 9.91 9.99 9.87)))
+                 (cons "Cursuri"  (list (list "Anul" "I" "II" "III" "IV" "I" "III" ) (list "Semestru" "I" "II" "I" "I" "II" "II")
+                       (list "Disciplină" "Programarea calculatoarelor" "Paradigme de programare" "Algoritmi paraleli și distribuiți"
+                              "Inteligență artificială" "Structuri de date" "Baze de date")
+                       (list "Număr credite" 5 6 5 6 5 5)
+                       (list "Număr teme" 2 3 3 3 3 0)))))
+
+db este o lista de tabele
+db contine tabelele "Studenti" si "Cursuri"
+o tabela este un cons pe numele tabelei si o lista de coloane
+o coloana este o lista formata din numele coloanei si elementele acesteia
+
+Exemplu concret : baza de date db --> tabela "Studenti"  --> coloana "Număr matricol" cu elementele 123 124 125 126 
